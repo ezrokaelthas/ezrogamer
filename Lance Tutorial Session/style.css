@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.hero {
+    min-height: 50vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero h1 {
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    max-width: 720px;
+    width: 100%;
+    height: 300px;
+    margin: 30px auto;
+}
+
+.parent-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+    margin: 30px auto
+}
+
+.child-container {
+    width: 50%;
+    height: 50%;
+    background-color: white;
+}
